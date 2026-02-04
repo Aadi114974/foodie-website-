@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order History</title>
+  <a href="orders.html">My Orders</a> 
+
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+    }
+
+    .order {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    } 
+
+    .order h4 {
+      margin: 0.5rem 0;
+    }
+
+    .item {
+      margin-left: 1rem;
+      font-size: 0.95rem;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back">← Back to Home</a>
+  <h2>Your Order History</h2>
+
+  <div id="orders-container"></div>
+
+  <script src="orders.js"></script>
+</body>
+</html>
