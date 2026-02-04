@@ -34,13 +34,29 @@ It allows users to browse food items, add them to a cart, place orders, and view
 
 foodie-website/
 │── index.html
+
+
 │── checkout.html
+
+
 │── orders.html
+
+
 │── style.css
+
+
 │── main.js
+
+
 │── checkout.js
+
+
 │── orders.js
+
+
 │── product.json
+
+
 │── images/
 
 
