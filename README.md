@@ -31,6 +31,7 @@ It allows users to browse food items, add them to a cart, place orders, and view
 
 ## 📂 Project Structure
 
+
 foodie-website/
 │── index.html
 │── checkout.html
